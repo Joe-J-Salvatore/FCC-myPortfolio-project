@@ -1,0 +1,156 @@
+/*{
+  border: 1px solid red;
+}*/
+
+body { font-family: 'Raleway', sans-serif; }
+
+
+header {
+  padding: 20px 0;
+}
+
+header .row {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0 20px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row;
+  flex-grow: 1;
+  background-color: #ff8000;
+}
+
+header p {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+header nav a:link {
+  background-color: #ff8000;
+  color: #000000;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+header nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+header nav a:visited {
+  background-color: #000000;
+  color: #bfbfbf;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://placehold.it/1200X700');
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+  color: #666666;
+  border: 1px solid black;
+}
+
+.jumbotron h3 {
+  font-size: 40px;
+  padding: 10px 0;
+  margin: 0;
+  color: #000000;
+  background-color: #ff8000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0 1px 1px;
+}
+
+section .row p {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  border: 1px solid #000000;
+}
+
+.col-sm-6 {
+  margin: 0 0 30px;
+}
+
+#rates h4 {
+  margin-top: 10px;
+}
+
+#rates #statement {
+  margin-bottom: 20px;
+}
+
+#contact h4 {
+  margin-top: 20px; 
+}
+
+form #biz {
+  margin-top: 10px;
+}
+
+#contact textarea {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #bfbfbf;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline;
+  margin: 10px 0;
+  pading: 0;
+  font-weight: 200;
+  font-size: 18px;
+  
+}
+
+li a {
+  color: white;
+  background-color: #ff8000;
+  text-decoration: none;
+  cursor: hand;
+}
